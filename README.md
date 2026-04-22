@@ -1,0 +1,1 @@
+# cursor-kivotos-gobang
