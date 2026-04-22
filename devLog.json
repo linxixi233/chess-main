@@ -1,0 +1,131 @@
+{
+  "logs": [
+    {
+      "date": "2026.4.12",
+      "type": "normal",
+      "highlight": "动效更新",
+      "color": "cyan",
+      "content": "引入蔚蓝档案 Millennium 光标主题与鼠标动效。感谢 [BlueArchive-Cursors](https://github.com/makipom/BlueArchive-Cursors) 项目和 [BASpark](https://github.com/DoomVoss/BASpark) 项目的所有作者，让棋盘指针也能有官方的味道。"
+    },
+    {
+      "date": "2026.1.12",
+      "type": "normal",
+      "highlight": "P2P",
+      "color": "cyan",
+      "content": "尝试加入2v2对战模式，也就是无论1v1还是2v2都创建四人房，1v1下可以允许有两名观战者，2v2则没有，但是p2p联机下四人相当麻烦，只要有一个人出问题所有人都得断联，而且没法保证主机端的网络是否正常，项目太大，bug好多，放弃了"
+    },
+    {
+      "date": "2025.12.25",
+      "type": "normal",
+      "highlight": "大叔来惹",
+      "color": "pink",
+      "content": "加入小鸟游星野。攻防姿态切换逻辑极其复杂，但是很帅。"
+    },
+    {
+      "date": "2025.12.24",
+      "type": "normal",
+      "highlight": "黑夜模式？",
+      "color": "slate",
+      "content": "加入砂狼白子(Terror)。迷雾系统上线。同时实装了 AI 对战功能 (PVE)。"
+    },
+    {
+      "date": "2025.12.23",
+      "type": "normal",
+      "highlight": "Ver 1.0 上线！",
+      "color": "cyan",
+      "content": "基础功能完备，联机大厅、表情包、背景音乐系统实装。"
+    },
+    {
+      "date": "2025.12.22",
+      "type": "normal",
+      "highlight": "一战转折点",
+      "color": "cyan",
+      "content": "南大计科的朋友说 Gemini 很好用。作为数院的第一次知道Agent，这原来才是AI发展的方向。AI Sensei将我之前客户端剩下的构思全部实现了（动效，p2p对战，表情包，背景音乐）"
+    },
+    {
+      "date": "2024.10.24",
+      "type": "normal",
+      "highlight": "更新动画",
+      "color": "slate",
+      "content": "开场动画、跳转判定完成。P1/P2 选择逻辑上线，BGM 终于响起来了。"
+    },
+    {
+      "date": "2024.10.21",
+      "type": "normal",
+      "highlight": "初具雏形",
+      "color": "cyan",
+      "content": "开场动画加上跳转判定动画,BGM，1P,2P选择逻辑完成，有没有画师帮画个棋盘，根本找不到同画风的素材啊。"
+    },
+    {
+      "date": "2024.10.18",
+      "type": "normal",
+      "highlight": "澡堂悟道",
+      "color": "pink",
+      "content": "调整了选人界面和背景动画。更新了选人界面，调整了背景动画。致敬某个撞上我的哥们，如果不是这一撞，灵光乍现，我还真不知道背景logo移动瞬移怎么处理，只可惜他进去之后澡堂就没水了"
+    },
+    {
+      "date": "2024.10.17",
+      "type": "normal",
+      "highlight": "装修工程",
+      "color": "slate",
+      "content": "美化菜单界面，按钮加了特效。转场丝滑度提升 200%。"
+    },
+    {
+      "date": "2024.10.16",
+      "type": "normal",
+      "highlight": "主菜单施工",
+      "color": "slate",
+      "content": "无人机贴图上线，终于会动了。"
+    },
+    {
+      "date": "2024.06.15",
+      "type": "normal",
+      "highlight": "验收完毕",
+      "color": "slate",
+      "content": "哥们，50页的课设报告... 没办法，快交了。老师说可以当数据结构课设(?)。他们说我造轮子不是要造跑车，但是我连车都没见过我怎么知道什么是跑车，反正能跑就行(大哭)。"
+    },
+    {
+      "date": "2024.06.01",
+      "type": "normal",
+      "highlight": "性能优化",
+      "color": "slate",
+      "content": "序列帧太卡，想放动画？单线程不行就 thread。多线程跟互斥锁写完了但还是有问题... 最好也只能这样了。"
+    },
+    {
+      "date": "2024.05.25",
+      "type": "normal",
+      "highlight": "架构成型",
+      "color": "slate",
+      "content": "场景类: enter, draw, input, exit 控制交互与渲染设计。想播放音乐？mcisendstring。全局变量，引用全局变量，flag控制... 头都要炸了。"
+    },
+    {
+      "date": "2024.05.22",
+      "type": "normal",
+      "highlight": "底层痛苦",
+      "color": "slate",
+      "content": "窗口会建了，渲染怎么办？怎么刷新，为什么画面会闪？Gettick, delta，控制刷新... 按钮怎么写？peekmessage, 判断按钮位置。想要动态按钮？switch case..."
+    },
+    {
+      "date": "2024.05.20",
+      "type": "normal",
+      "highlight": "造轮子",
+      "color": "slate",
+      "content": "好像仅靠学校的是做不出东西的。不能说有关联只能说毫不相关，别说车子了，连轮子甚至毛都造不出来。从框架开始学习，怎么控制循环..."
+    },
+    {
+      "date": "2024.05.16",
+      "type": "normal",
+      "highlight": "新建文件夹",
+      "color": "slate",
+      "content": "从5月16新建文件夹到现在已经有一个月了，你知道我这一个月是怎么过来的吗？(大哭/大哭/大哭)"
+    }
+  ],
+  "specialThanks": {
+    "title": "Special Thanks",
+    "content": "<strong className=\"text-yellow-600\">VoidMatrix (大V老师)</strong>: 非科班出身，从井字棋，提瓦特，植物大战僵尸到2d塔防，一步步跟着V佬走过来，学着造了不少轮子，也了解到学校里很多不可能遇到的知识，对引擎架构也有了非常清晰的认识。模块化使得我们可以针对项目的需求做出相应的调整，V佬的引擎便是如此。从源代码到成品，这个过程很长，也很艰难，不断复写，解决问题，也能愈发感受到V佬的伟大（赞美大V!）。<br/>以及帮我debug的frl, hy, 还有两位帮我解包的朋友 (大哭)。"
+  },
+  "wanted": {
+    "title": "WANTED",
+    "content": "为什么我这么晚才知道Agent啊！果然信息差将我抛弃了么(大哭)"
+  }
+}
