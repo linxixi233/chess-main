@@ -32,6 +32,24 @@ const ASSETS_TO_PRELOAD: LoadItem[] = [
   { url: '/icons/星野.webp', type: 'image' },
   { url: '/icons/白子（恐怖）.webp', type: 'image' },
   { url: '/icons/老师.webp', type: 'image' },
+  // Character Backgrounds
+  { url: '/characterbackground/BG_GameDevRoom.jpg', type: 'image' },
+  { url: '/characterbackground/bg_view_mainstadium.jpg', type: 'image' },
+  { url: '/characterbackground/BG_SchoolFrontGate.jpg', type: 'image' },
+  { url: '/characterbackground/BG_View_Schale.jpg', type: 'image' },
+  // School Icons
+  { url: '/characterbackground/School_Icon_MILLENNIUM.png', type: 'image' },
+  { url: '/characterbackground/School_Icon_ABYDOS.png', type: 'image' },
+  { url: '/characterbackground/sensei schale.png', type: 'image' },
+  // Tactical GIFs
+  { url: '/res/admire.gif', type: 'image' },
+  { url: '/res/clap.gif', type: 'image' },
+  { url: '/res/draw.gif', type: 'image' },
+  { url: '/res/good.gif', type: 'image' },
+  { url: '/res/hacido.gif', type: 'image' },
+  { url: '/res/hengheng.gif', type: 'image' },
+  { url: '/res/ski.gif', type: 'image' },
+  { url: '/res/want.gif', type: 'image' },
 ];
 
 // 检查资源是否已缓存（通过创建 Image/Audio 对象）
@@ -80,8 +98,12 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
         // 分类更新状态文字
         if (asset.url.includes('standees')) {
           setStatusText('加载角色立绘...');
-        } else if (asset.url.includes('icons')) {
+        } else if (asset.url.includes('icons') && !asset.url.includes('characterbackground')) {
           setStatusText('加载角色头像...');
+        } else if (asset.url.includes('characterbackground')) {
+          setStatusText('加载角色背景...');
+        } else if (asset.url.includes('res/')) {
+          setStatusText('加载战术表情...');
         } else if (asset.url.includes('audio') || asset.url.includes('bgm')) {
           setStatusText('加载音频资源...');
         }
@@ -181,7 +203,7 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
 
         {/* 当前加载的资源（调试用，可注释掉） */}
         <div className="mt-2 text-xs text-slate-600 truncate font-mono">
-          {currentAsset.replace('/standees/', '').replace('/icons/', '')}
+          {currentAsset.replace('/standees/', '').replace('/icons/', '').replace('/characterbackground/', '').replace('/res/', '')}
         </div>
       </motion.div>
 
